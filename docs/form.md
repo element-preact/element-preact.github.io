@@ -535,12 +535,14 @@ render() {
               key={index}
               label={`域名${index}`}
               prop={`domains:${index}`}
-              rules={{
+              rules={
+                {
                 type: 'object', required: true,
                 fields: {
                   value: { required: true, message: '域名不能为空', trigger: 'blur' }
                 }
-              }}
+              }
+              }
             >
               <Input value={domain.value} onChange={this.onDomainChange.bind(this, index)}></Input>
               <Button onClick={this.removeDomain.bind(this, domain)}>删除</Button>
