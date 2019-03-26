@@ -32,7 +32,7 @@ render() {
 render() {
   const color3 = 'rgba(19, 206, 102, 0.8)';
   return (
-    <div style={{padding: '24px'}}>
+    <div style={ {padding: '24px'}}>
       <ColorPicker value={color3} showAlpha></ColorPicker>
     </div>
   )

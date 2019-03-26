@@ -54,7 +54,7 @@ render() {
     <div className="el-loading-demo">
       <Loading>
         <Table
-          style={{width: '100%'}}
+          style={ {width: '100%'}}
           columns={this.table.columns}
           data={this.table.data}
         />
@@ -117,7 +117,7 @@ render() {
     <div className="el-loading-demo">
       <Loading text="拼命加载中">
         <Table
-          style={{width: '100%'}}
+          style={ {width: '100%'}}
           columns={this.table.columns}
           data={this.table.data}
         />

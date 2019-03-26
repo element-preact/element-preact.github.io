@@ -258,7 +258,7 @@ render() {
       tip={<div className="el-upload__tip">只能上传jpg/png文件，且不超过500kb</div>}
       trigger={<Button size="small" type="primary">选取文件</Button>}
     >
-      <Button style={{ marginLeft: '10px'}} size="small" type="success" onClick={() => this.submitUpload()}>上传到服务器</Button>
+      <Button style={ { marginLeft: '10px'}} size="small" type="success" onClick={() => this.submitUpload()}>上传到服务器</Button>
     </Upload>
   )
 }

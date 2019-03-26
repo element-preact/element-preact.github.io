@@ -13,8 +13,8 @@ render() {
       className="box-card"
       header={
         <div className="clearfix">
-          <span style={{ "lineHeight": "36px" }}>卡片名称</span>
-          <span style={{ "float": "right" }}>
+          <span style={ { "lineHeight": "36px" }}>卡片名称</span>
+          <span style={ { "float": "right" }}>
             <Button type="primary">操作按钮</Button>
           </span>
         </div>
@@ -59,9 +59,9 @@ render() {
   return (
     <Layout.Row>
       <Layout.Col span={ 8 } offset={ 0 }>
-        <Card bodyStyle={{ padding: 0 }}>
+        <Card bodyStyle={ { padding: 0 }}>
           <img src={this.props.imgSrc} className="image" />
-          <div style={{ padding: 14 }}>
+          <div style={ { padding: 14 }}>
             <span>好吃的汉堡</span>
             <div className="bottom clearfix">
               <time className="time">2016-10-21 16:19</time>
@@ -71,9 +71,9 @@ render() {
         </Card>
       </Layout.Col>
       <Layout.Col span={ 8 } offset={ 2 }>
-        <Card bodyStyle={{ padding: 0 }}>
+        <Card bodyStyle={ { padding: 0 }}>
           <img src={this.props.imgSrc} className="image" />
-          <div style={{ padding: 14 }}>
+          <div style={ { padding: 14 }}>
             <span>好吃的汉堡</span>
             <div className="bottom clearfix">
               <time className="time">2016-10-21 16:19</time>

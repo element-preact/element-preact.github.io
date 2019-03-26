@@ -108,7 +108,7 @@ render() {
         <Dialog.Body>
           {this.state.dialogVisible2 && (
             <Table
-             style={{width: '100%'}}
+             style={ {width: '100%'}}
              stripe={true}
              columns={this.table.columns}
              data={this.table.data} />

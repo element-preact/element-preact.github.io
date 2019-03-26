@@ -399,7 +399,7 @@ renderContent(nodeModel, data, store) {
       <span>
         <span>{data.label}</span>
       </span>
-      <span style={{float: 'right', marginRight: '20px'}}>
+      <span style={ {float: 'right', marginRight: '20px'}}>
         <Button size="mini" onClick={ () => this.append(store, data) }>Append</Button>
         <Button size="mini" onClick={ () => this.remove(store, data) }>Delete</Button>
       </span>

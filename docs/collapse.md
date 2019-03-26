@@ -52,7 +52,7 @@ render() {
     <div>
       <Button
         type="primary"
-        style={{marginBottom: '15px'}}
+        style={ {marginBottom: '15px'}}
         onClick={() => this.setState({ activeName: '3' })}
       >
         打开第三个

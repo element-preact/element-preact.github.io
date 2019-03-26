@@ -55,7 +55,7 @@ render() {
   return (
     <Input
       type="textarea"
-      autosize={{ minRows: 2, maxRows: 4}}
+      autosize={ { minRows: 2, maxRows: 4}}
       placeholder="请输入内容"
     />
   )
@@ -77,10 +77,10 @@ render() {
         autosize={true}
         placeholder="请输入内容"
       />
-      <div style={{ margin: '20px 0' }}></div>
+      <div style={ { margin: '20px 0' }}></div>
       <Input
         type="textarea"
-        autosize={{ minRows: 2, maxRows: 4}}
+        autosize={ { minRows: 2, maxRows: 4}}
         placeholder="请输入内容"
       />
     </div>

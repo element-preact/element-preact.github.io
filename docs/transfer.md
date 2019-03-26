@@ -150,7 +150,7 @@ render() {
       renderContent={this.renderFunc}
       titles={['Source', 'Target']}
       buttonTexts={['到左边', '到右边']}
-      footerFormat={{
+      footerFormat={ {
         noChecked: '${total}',
         hasChecked: '${checked}/${total}'
       }}
@@ -207,7 +207,7 @@ render() {
   return (
     <Transfer
       value={value}
-      propsAlias={{
+      propsAlias={ {
         key: 'value',
         label: 'desc'
       }}

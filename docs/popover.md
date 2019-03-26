@@ -74,7 +74,7 @@ render() {
   return (
     <Popover placement="right" title="标题" width="400" trigger="click" content={(
       <Table
-       style={{width: '100%'}}
+       style={ {width: '100%'}}
        stripe={true}
        columns={this.table.columns}
        data={this.table.data} />
@@ -109,7 +109,7 @@ render() {
     <Popover placement="top" width="160" trigger="click" visible={this.state.visible} content={(
       <div>
         <p>这是一段内容这是一段内容确定删除吗？</p>
-        <div style={{textAlign: 'right', margin: 0}}>
+        <div style={ {textAlign: 'right', margin: 0}}>
           <Button size="mini" type="text" onClick={this.onDismiss.bind(this)}>取消</Button>
           <Button type="primary" size="mini" onClick={this.onDismiss.bind(this)}>确定</Button>
         </div>

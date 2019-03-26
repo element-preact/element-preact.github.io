@@ -210,7 +210,7 @@ removeTab(tab) {
 render() {
   return (
     <div>
-      <div style={{marginBottom: '20px'}}>
+      <div style={ {marginBottom: '20px'}}>
         <Button size="small" onClick={() => this.addTab()}>add tab</Button>
       </div>
       <Tabs type="card" value="Tab 2" onTabRemove={(tab) => this.removeTab(tab)}>

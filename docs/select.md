@@ -260,8 +260,8 @@ render() {
         this.state.cities.map(el => {
           return (
             <Select.Option key={el.value} label={el.label} value={el.value}>
-              <span style={{float: 'left'}}>{el.label}</span>
-              <span style={{float: 'right', color: '#8492a6', fontSize: 13}}>{el.value}</span>
+              <span style={ {float: 'left'}}>{el.label}</span>
+              <span style={ {float: 'right', color: '#8492a6', fontSize: 13}}>{el.value}</span>
             </Select.Option>
           )
         })
@@ -322,8 +322,8 @@ render() {
                 group.options.map(el => {
                   return (
                     <Select.Option key={el.value} label={el.label} value={el.value}>
-                      <span style={{float: 'left'}}>{el.label}</span>
-                      <span style={{float: 'right', color: '#8492a6', fontSize: 13}}>{el.value}</span>
+                      <span style={ {float: 'left'}}>{el.label}</span>
+                      <span style={ {float: 'right', color: '#8492a6', fontSize: 13}}>{el.value}</span>
                     </Select.Option>
                   )
                 })

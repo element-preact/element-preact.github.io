@@ -191,7 +191,7 @@ render() {
         <Radio.Button value="right">右对齐</Radio.Button>
         <Radio.Button value="top">顶部对齐</Radio.Button>
       </Radio.Group>
-      <div style={{ margin: 20 }}></div>
+      <div style={ { margin: 20 }}></div>
       <Form labelPosition={this.state.labelPosition} labelWidth="100" model={this.state.form} className="demo-form-stacked">
         <Form.Item label="名称">
           <Input value={this.state.form.name} onChange={this.onChange.bind(this, 'name')}></Input>

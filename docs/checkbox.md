@@ -106,7 +106,7 @@ render() {
         checked={this.state.checkAll}
         indeterminate={this.state.isIndeterminate}
         onChange={this.handleCheckAllChange.bind(this)}>全选</Checkbox>
-      <div style={{margin: '15px 0'}}></div>
+      <div style={ {margin: '15px 0'}}></div>
       <Checkbox.Group
         value={this.state.checkedCities}
         onChange={this.handleCheckedCitiesChange.bind(this)}>
@@ -168,7 +168,7 @@ render() {
         checked={this.state.checkAll}
         indeterminate={this.state.isIndeterminate}
         onChange={this.handleCheckAllChange.bind(this)}>全选</Checkbox>
-      <div style={{margin: '15px 0'}}></div>
+      <div style={ {margin: '15px 0'}}></div>
       <Checkbox.Group
         min="1"
         max="2"
@@ -206,7 +206,7 @@ constructor(props) {
 render() {
   return (
     <div>
-      <div style={{margin: '15px 0'}}></div>
+      <div style={ {margin: '15px 0'}}></div>
       <Checkbox.Group value={this.state.checkboxGroup1}>
         {
           this.state.cities.map((city, index) => {
@@ -214,7 +214,7 @@ render() {
           })
         }
       </Checkbox.Group>
-      <div style={{margin: '15px 0'}}></div>
+      <div style={ {margin: '15px 0'}}></div>
       <Checkbox.Group value={this.state.checkboxGroup2} size="small">
         {
           this.state.cities.map((city, index) => {
@@ -222,7 +222,7 @@ render() {
           })
         }
       </Checkbox.Group>
-      <div style={{margin: '15px 0'}}></div>
+      <div style={ {margin: '15px 0'}}></div>
       <Checkbox.Group value={this.state.checkboxGroup3} size="large" fill="#324057" textColor="#a4aebd" min="1" max="3">
         {
           this.state.cities.map((city, index) => {

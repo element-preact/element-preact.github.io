@@ -67,7 +67,7 @@ constructor(props) {
 render() {
   return (
     <Table
-      style={{width: '100%'}}
+      style={ {width: '100%'}}
       columns={this.state.columns}
       maxHeight={200}
       data={this.state.data}
@@ -126,7 +126,7 @@ constructor(props) {
 render() {
   return (
     <Table
-      style={{width: '100%'}}
+      style={ {width: '100%'}}
       columns={this.state.columns}
       data={this.state.data}
       stripe={true}
@@ -183,7 +183,7 @@ constructor(props) {
 render() {
   return (
     <Table
-      style={{width: '100%'}}
+      style={ {width: '100%'}}
       columns={this.state.columns}
       data={this.state.data}
       border={true}
@@ -243,7 +243,7 @@ constructor(props) {
 render() {
   return (
     <Table
-      style={{width: '100%'}}
+      style={ {width: '100%'}}
       columns={this.state.columns}
       data={this.state.data}
       stripe={true}
@@ -264,7 +264,7 @@ rowClassName(row, index) {
 render() {
   return (
     <Table
-      style={{width: '100%'}}
+      style={ {width: '100%'}}
       rowClassName={this.rowClassName.bind(this)}
       columns={this.state.columns}
       data={this.state.data}
@@ -339,7 +339,7 @@ constructor(props) {
 render() {
   return (
     <Table
-      style={{width: '100%'}}
+      style={ {width: '100%'}}
       columns={this.state.columns}
       data={this.state.data}
       border={true}
@@ -439,7 +439,7 @@ constructor(props) {
 render() {
   return (
     <Table
-      style={{width: '100%'}}
+      style={ {width: '100%'}}
       columns={this.state.columns}
       data={this.state.data}
       border={true}
@@ -545,7 +545,7 @@ constructor(props) {
 render() {
   return (
     <Table
-      style={{width: '100%'}}
+      style={ {width: '100%'}}
       columns={this.state.columns}
       data={this.state.data}
       border={true}
@@ -668,7 +668,7 @@ deleteRow(index) {
 render() {
   return (
     <Table
-      style={{width: '100%'}}
+      style={ {width: '100%'}}
       columns={this.state.columns}
       data={this.state.data}
       border={true}
@@ -783,7 +783,7 @@ constructor(props) {
 render() {
   return (
     <Table
-      style={{width: '100%'}}
+      style={ {width: '100%'}}
       columns={this.state.columns}
       data={this.state.data}
       border={true}
@@ -815,7 +815,7 @@ constructor(props) {
           return (
           <span>
             <Icon name="time"/>
-            <span style={{marginLeft: '10px'}}>{data.date}</span>
+            <span style={ {marginLeft: '10px'}}>{data.date}</span>
           </span>)
         }
       },
@@ -896,7 +896,7 @@ constructor(props) {
 render() {
   return (
     <Table
-      style={{width: '100%'}}
+      style={ {width: '100%'}}
       columns={this.state.columns}
       data={this.state.data}
       border={true}
@@ -990,7 +990,7 @@ constructor(props) {
 render() {
   return (
     <Table
-      style={{width: '100%'}}
+      style={ {width: '100%'}}
       columns={this.state.columns}
       data={this.state.data}
       border={false}
@@ -1087,7 +1087,7 @@ constructor(props) {
 render() {
   return (
     <Table
-      style={{width: '100%'}}
+      style={ {width: '100%'}}
       columns={this.state.columns}
       data={this.state.data}
       border={true}
@@ -1199,7 +1199,7 @@ render() {
     <div>
       <Table
         ref="multipleTable"
-        style={{width: '100%'}}
+        style={ {width: '100%'}}
         columns={columns}
         data={data}
         border={true}
@@ -1207,7 +1207,7 @@ render() {
         onSelectChange={(selection) => { console.log(selection) }}
         onSelectAll={(selection) => { console.log(selection) }}
       />
-      <div style={{marginTop: '20px'}}>
+      <div style={ {marginTop: '20px'}}>
         <Button onClick={() => this.toggleSelection([ data[1], data[2] ])}>切换第二、第三行的选中状态</Button>
         <Button onClick={() => this.toggleSelection()}>取消选择</Button>
       </div>
@@ -1273,7 +1273,7 @@ handleSort(data){
 render() {
   return (
     <Table
-      style={{width: '100%'}}
+      style={ {width: '100%'}}
       columns={this.state.columns}
       data={this.state.data}
       border={true}
@@ -1353,7 +1353,7 @@ constructor(props) {
 render() {
   return (
     <Table
-      style={{width: '100%'}}
+      style={ {width: '100%'}}
       columns={this.state.columns}
       data={this.state.data}
       border={true}
@@ -1436,14 +1436,14 @@ render() {
   return (
     <div>
       <Table
-        style={{width: '100%'}}
+        style={ {width: '100%'}}
         showSummary={true}
         columns={this.state.columns}
         data={this.state.data}
         border={true}
       />
       <Table
-        style={{width: '100%', marginTop: 20}}
+        style={ {width: '100%', marginTop: 20}}
         height={200}
         showSummary={true}
         columns={this.state.columns}
