@@ -1,2 +1,5 @@
 import * as Layout from './layout';
-export { Layout };
+import Button from './button';
+import Icon from './icon';
+import Radio from './radio';
+export { Layout, Button, Icon, Radio };
